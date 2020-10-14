@@ -43,6 +43,7 @@
 						<goals>
 							<goal>enforce</goal>
 						</goals>
+						
 						<configuration>
 							<rules>
 								<requireJavaVersion>
