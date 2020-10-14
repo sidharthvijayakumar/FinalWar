@@ -9,7 +9,7 @@ node{
   }
   stage("publish to s3") {
       
-  s3Upload(file:'/var/lib/jenkins/workspace/wwpDeploy/target/*.war', bucket:'s3artifactsforjenkins', path:'target')
+  s3Upload(file:'/var/lib/jenkins/workspace/wwpDeploy/target/wwp-1.0.0.war', bucket:'s3artifactsforjenkins', path:'target')
     
   } 
 }
