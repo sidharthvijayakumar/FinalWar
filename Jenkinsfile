@@ -1,7 +1,7 @@
 node{
   stage('SCM Checout'){
    
-  git 'https://github.com/sidharthvijayakumar/FinalWar.git'
+  git 'https://github.com/sidharthvijayakumar/FinalWar'
   }
   stage('Build'){
      def mvnHome = tool name: 'Maven', type: 'maven'
