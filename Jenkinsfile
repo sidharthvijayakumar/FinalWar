@@ -16,4 +16,5 @@ node{
     sshagent(['tomcat']) {
     sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@18.220.23.127:/home/ec2-user/tomcat/webapps"
   }
+  }
 }
