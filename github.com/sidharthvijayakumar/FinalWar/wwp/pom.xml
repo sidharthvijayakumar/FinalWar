@@ -27,6 +27,7 @@
         <version>3.1</version>
         <configuration>
           
+          
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                
           <source>1.7</source>
